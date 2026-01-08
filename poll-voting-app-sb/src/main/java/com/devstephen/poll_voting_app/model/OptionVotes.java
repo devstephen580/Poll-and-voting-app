@@ -6,6 +6,6 @@ import lombok.Data;
 @Embeddable
 @Data
 public class OptionVotes {
-    private String voteOptions;
+    private String optionText;
     private Long voteCount = 0L;
 }

@@ -47,7 +47,6 @@ public class PollServiceImpl implements PollService {
 
         OptionVotes selectedOption = options.get(optionIndex);
         selectedOption.setVoteCount(selectedOption.getVoteCount() + 1);
-
         pollRepo.save(pollById);
     }
 
